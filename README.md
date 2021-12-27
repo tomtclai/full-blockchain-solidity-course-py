@@ -2,7 +2,7 @@
 
 Title  | Solidity, Blockchain, and Smart Contract Course
 -------|-------------------
-Author | Patrick Collins - https://github.com/PatrickAlphaC
+Author | [Patrick Collins](https://github.com/PatrickAlphaC) from Alpha Chain
 Link   | [Youtube](https://www.youtube.com/watch?v=M576WGiDBdQ)
 
 [Back to home repo](https://github.com/tomtclai/learning)
