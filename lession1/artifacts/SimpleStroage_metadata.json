@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lession1/SimpleStorage.sol": "SimpleStroage"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lession1/SimpleStorage.sol": {
+			"keccak256": "0xf81cdd32f5750fb07ccccf61349564ea8252c4d090ab5638cc1e7a7420ef77f1",
+			"urls": [
+				"bzz-raw://17390252f89c87f8a2433d316c0a2baee3f7fa6b615a274762dcaf18b6ebf56a",
+				"dweb:/ipfs/QmXQrqrVLiyxh4QqNFG1kSyN1Y7fZXHLLRB1xmjD1GoJEh"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,337 @@
+{
+	"id": "be57921ca7e2f06a228ef39e5c61417c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.7",
+	"solcLongVersion": "0.8.7+commit.e28d00a7",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"lession1/SimpleStorage.sol": {
+				"content": "pragma solidity >=0.6.0 <0.9.0;\n\ncontract SimpleStroage {\n    \n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"contracts": {
+			"lession1/SimpleStorage.sol": {
+				"SimpleStroage": {
+					"abi": [],
+					"devdoc": {
+						"kind": "dev",
+						"methods": {},
+						"version": 1
+					},
+					"evm": {
+						"assembly": "    /* \"lession1/SimpleStorage.sol\":33:64  contract SimpleStroage {... */\n  mstore(0x40, 0x80)\n  callvalue\n  dup1\n  iszero\n  tag_1\n  jumpi\n  0x00\n  dup1\n  revert\ntag_1:\n  pop\n  dataSize(sub_0)\n  dup1\n  dataOffset(sub_0)\n  0x00\n  codecopy\n  0x00\n  return\nstop\n\nsub_0: assembly {\n        /* \"lession1/SimpleStorage.sol\":33:64  contract SimpleStroage {... */\n      mstore(0x40, 0x80)\n      0x00\n      dup1\n      revert\n\n    auxdata: 0xa2646970667358221220540e0c705fb651ca54a8fee08c1ec2b5c6d486f4272278c630e3a0991adfd52664736f6c63430008070033\n}\n",
+						"bytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"linkReferences": {},
+							"object": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220540e0c705fb651ca54a8fee08c1ec2b5c6d486f4272278c630e3a0991adfd52664736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x1D PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SLOAD 0xE 0xC PUSH17 0x5FB651CA54A8FEE08C1EC2B5C6D486F427 0x22 PUSH25 0xC630E3A0991ADFD52664736F6C634300080700330000000000 ",
+							"sourceMap": "33:31:0:-:0;;;;;;;;;;;;;;;;;;;"
+						},
+						"deployedBytecode": {
+							"functionDebugData": {},
+							"generatedSources": [],
+							"immutableReferences": {},
+							"linkReferences": {},
+							"object": "6080604052600080fdfea2646970667358221220540e0c705fb651ca54a8fee08c1ec2b5c6d486f4272278c630e3a0991adfd52664736f6c63430008070033",
+							"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SLOAD 0xE 0xC PUSH17 0x5FB651CA54A8FEE08C1EC2B5C6D486F427 0x22 PUSH25 0xC630E3A0991ADFD52664736F6C634300080700330000000000 ",
+							"sourceMap": "33:31:0:-:0;;;;;"
+						},
+						"gasEstimates": {
+							"creation": {
+								"codeDepositCost": "12600",
+								"executionCost": "66",
+								"totalCost": "12666"
+							}
+						},
+						"legacyAssembly": {
+							".code": [
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "PUSH",
+									"source": 0,
+									"value": "80"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "PUSH",
+									"source": 0,
+									"value": "40"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "MSTORE",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "CALLVALUE",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "ISZERO",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "PUSH [tag]",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "JUMPI",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "REVERT",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "tag",
+									"source": 0,
+									"value": "1"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "JUMPDEST",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "POP",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "PUSH #[$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "DUP1",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "PUSH [$]",
+									"source": 0,
+									"value": "0000000000000000000000000000000000000000000000000000000000000000"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "CODECOPY",
+									"source": 0
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "PUSH",
+									"source": 0,
+									"value": "0"
+								},
+								{
+									"begin": 33,
+									"end": 64,
+									"name": "RETURN",
+									"source": 0
+								}
+							],
+							".data": {
+								"0": {
+									".auxdata": "a2646970667358221220540e0c705fb651ca54a8fee08c1ec2b5c6d486f4272278c630e3a0991adfd52664736f6c63430008070033",
+									".code": [
+										{
+											"begin": 33,
+											"end": 64,
+											"name": "PUSH",
+											"source": 0,
+											"value": "80"
+										},
+										{
+											"begin": 33,
+											"end": 64,
+											"name": "PUSH",
+											"source": 0,
+											"value": "40"
+										},
+										{
+											"begin": 33,
+											"end": 64,
+											"name": "MSTORE",
+											"source": 0
+										},
+										{
+											"begin": 33,
+											"end": 64,
+											"name": "PUSH",
+											"source": 0,
+											"value": "0"
+										},
+										{
+											"begin": 33,
+											"end": 64,
+											"name": "DUP1",
+											"source": 0
+										},
+										{
+											"begin": 33,
+											"end": 64,
+											"name": "REVERT",
+											"source": 0
+										}
+									]
+								}
+							}
+						},
+						"methodIdentifiers": {}
+					},
+					"metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"lession1/SimpleStorage.sol\":\"SimpleStroage\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"lession1/SimpleStorage.sol\":{\"keccak256\":\"0x3887538bee41e45a792c781de2240f90acb07996a919280904af025c51f6e907\",\"urls\":[\"bzz-raw://c20632708bc8158029821e373a38846ebf9ed1b366dce90dc3bc09b68ad10311\",\"dweb:/ipfs/QmSckPkJZpuXPmtik9ZgAokUK86729zj4XJ7V3iHHEuDo8\"]}},\"version\":1}",
+					"userdoc": {
+						"kind": "user",
+						"methods": {},
+						"version": 1
+					}
+				}
+			}
+		},
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "1878",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> lession1/SimpleStorage.sol\n\n",
+				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "lession1/SimpleStorage.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"lession1/SimpleStorage.sol": {
+				"ast": {
+					"absolutePath": "lession1/SimpleStorage.sol",
+					"exportedSymbols": {
+						"SimpleStroage": [
+							2
+						]
+					},
+					"id": 3,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								">=",
+								"0.6",
+								".0",
+								"<",
+								"0.9",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "0:31:0"
+						},
+						{
+							"abstract": false,
+							"baseContracts": [],
+							"contractDependencies": [],
+							"contractKind": "contract",
+							"fullyImplemented": true,
+							"id": 2,
+							"linearizedBaseContracts": [
+								2
+							],
+							"name": "SimpleStroage",
+							"nameLocation": "42:13:0",
+							"nodeType": "ContractDefinition",
+							"nodes": [],
+							"scope": 3,
+							"src": "33:31:0",
+							"usedErrors": []
+						}
+					],
+					"src": "0:64:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
