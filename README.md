@@ -9,6 +9,14 @@ Link   | [Youtube](https://www.youtube.com/watch?v=M576WGiDBdQ)
 [Back to home repo](https://github.com/tomtclai/learning)
 
 #### Read Me
+
+*Big Update*: [New Rinkeby Faucet Located Here](https://faucets.chain.link/rinkeby).
+You can find [Backup Faucets here](https://docs.chain.link/docs/link-token-contracts/#rinkeby).
+
+Additionally, lesson 7 uses Chainlink VRF v1 instead of v2, [you can find the docs for Chainlink VRFv1 here](https://docs.chain.link/docs/get-a-random-number/v1/). 
+
+[YouTube Video](https://www.youtube.com/watch?v=M576WGiDBdQ)
+
 <br/>
 <p align="center">
 <a href="https://www.youtube.com/watch?v=M576WGiDBdQ" target="_blank">
@@ -429,8 +437,16 @@ Welcome to the repository for the Ultimate Solidity, Blockchain, and Smart Contr
 - [First time with git](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 - [Adding our project to github](https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line)
 - Tweet it out!
+### Compatibility with Ganache UI
+- `test_only_owner_can_withdraw()` gives below error if the selected network is Ganache UI::
+```
+E           ValueError: Execution reverted during call: 'VM Exception while processing transaction: revert'. This transaction will likely revert. If you wish to broadcast, include `allow_revert:True` as a transaction parameter.
+```
+[More information here.](https://ethereum.stackexchange.com/questions/114889/deploying-ganache-local-w-brownie-vm-exception-while-processing-transaction-in) 
 # Lesson 7: [SmartContract Lottery](https://github.com/PatrickAlphaC/smartcontract-lottery)
 💻 Code: https://github.com/PatrickAlphaC/smartcontract-lottery
+
+[Chainlink VRF v1 docs](https://docs.chain.link/docs/get-a-random-number/v1/)
 
 ### Introduction
 - Add a `README.md`
@@ -788,7 +804,7 @@ Shoutout to [Matt](https://twitter.com/mdurkin92) for the help on the front end!
 # Closing and Summary
 ## Security
 - [Best Practices](https://consensys.github.io/smart-contract-best-practices/)
-- [Attacks](https://consensys.github.io/smart-contract-best-practices/known_attacks/)
+- [Attacks](https://consensys.github.io/smart-contract-best-practices/attacks/)
   - [Oracle Attacks](https://hackernoon.com/how-dollar100m-got-stolen-from-defi-in-2021-price-oracle-manipulation-and-flash-loan-attacks-explained-3n6q33r1)
   - [Re-entrancy Attacks](https://quantstamp.com/blog/what-is-a-re-entrancy-attack)
 - [Damn Vulnerable Defi](https://www.damnvulnerabledefi.xyz/)
@@ -828,4 +844,3 @@ Be sure to check out project grant programs!
 
 
 And make today an amazing day!
-
